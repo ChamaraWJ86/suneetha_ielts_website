@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Expert IELTS preparation in Sri Lanka. Achieve your target band score with personalized coaching.">
+    <title>IELTS Preparation Sri Lanka | Expert IELTS Teacher</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'ielts-red': '#E31837',
+                        'ielts-dark': '#1a1a1a',
+                        'ielts-gray': '#f5f5f5',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            scroll-behavior: smooth;
+        }
+        .gradient-hero {
+            background: linear-gradient(135deg, #E31837 0%, #8B0000 100%);
+        }
+        .floating {
+            animation: floating 3s ease-in-out infinite;
+        }
+        @keyframes floating {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        .card-hover:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body class="font-sans">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md fixed w-full top-0 z-50">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div>
+                    <img src="Logo.png" alt="IELTS Excellence" class="h-12 md:h-16">
+                </div>
+                <button id="mobile-menu-btn" class="md:hidden">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+                <ul id="nav-menu" class="hidden md:flex space-x-8">
+                    <li><a href="index.html" class="text-ielts-dark hover:text-ielts-red transition">Home</a></li>
+                    <li><a href="about.html" class="text-ielts-dark hover:text-ielts-red transition">About</a></li>
+                    <li><a href="courses.html" class="text-ielts-dark hover:text-ielts-red transition">Courses</a></li>
+                    <li><a href="resources.html" class="text-ielts-dark hover:text-ielts-red transition">Resources</a></li>
+                    <li><a href="success.html" class="text-ielts-dark hover:text-ielts-red transition">Success Stories</a></li>
+                    <li><a href="contact.html" class="text-ielts-dark hover:text-ielts-red transition">Contact</a></li>
+                </ul>
+            </div>
+            <!-- Mobile Menu -->
+            <ul id="mobile-menu" class="hidden md:hidden mt-4 space-y-2">
+                <li><a href="index.html" class="block py-2 text-ielts-dark hover:text-ielts-red transition">Home</a></li>
+                <li><a href="about.html" class="block py-2 text-ielts-dark hover:text-ielts-red transition">About</a></li>
+                <li><a href="courses.html" class="block py-2 text-ielts-dark hover:text-ielts-red transition">Courses</a></li>
+                <li><a href="resources.html" class="block py-2 text-ielts-dark hover:text-ielts-red transition">Resources</a></li>
+                <li><a href="success.html" class="block py-2 text-ielts-dark hover:text-ielts-red transition">Success Stories</a></li>
+                <li><a href="contact.html" class="block py-2 text-ielts-dark hover:text-ielts-red transition">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Gradient -->
+    <section class="gradient-hero pt-32 pb-20 md:pt-40 md:pb-32 text-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center max-w-4xl mx-auto">
+                <h1 class="text-5xl md:text-7xl font-bold mb-6 floating">
+                    Master IELTS with Confidence
+                </h1>
+                <p class="text-xl md:text-2xl mb-8 opacity-90">
+                    Expert coaching tailored to your goals. Achieve your dream band score in Sri Lanka.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+                    <a href="courses.html" class="bg-white text-ielts-red px-10 py-4 rounded-full hover:bg-gray-100 transition text-center font-bold text-lg shadow-lg">
+                        Explore Courses
+                    </a>
+                    <a href="contact.html" class="border-3 border-white text-white px-10 py-4 rounded-full hover:bg-white hover:text-ielts-red transition text-center font-bold text-lg">
+                        Free Consultation
+                    </a>
+                </div>
+                <!-- Stats in Hero -->
+                <div class="grid grid-cols-3 gap-6 max-w-2xl mx-auto mt-16">
+                    <div class="text-center">
+                        <p class="text-5xl font-bold mb-2">95%</p>
+                        <p class="text-sm opacity-80">Success Rate</p>
+                    </div>
+                    <div class="text-center">
+                        <p class="text-5xl font-bold mb-2">500+</p>
+                        <p class="text-sm opacity-80">Students</p>
+                    </div>
+                    <div class="text-center">
+                        <p class="text-5xl font-bold mb-2">8.5</p>
+                        <p class="text-sm opacity-80">Avg Score</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Preview with Photo -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
+                <div>
+                    <img src="teacher_photo.png" alt="IELTS Instructor" class="w-full max-w-md rounded-2xl shadow-2xl mx-auto">
+                </div>
+                <div>
+                    <h2 class="text-4xl md:text-5xl font-bold text-ielts-dark mb-6">Meet Your Expert Instructor</h2>
+                    <div class="w-20 h-1 bg-ielts-red mb-6"></div>
+                    <h3 class="text-2xl font-bold text-ielts-dark mb-2">[Teacher Name]</h3>
+                    <p class="text-ielts-red font-semibold mb-6">Certified IELTS Instructor | Band 9.0</p>
+                    <p class="text-gray-700 mb-6 text-lg leading-relaxed">
+                        With over [X] years of experience in IELTS preparation, I have helped hundreds of students in Sri Lanka achieve their target band scores. My personalized approach focuses on individual strengths and weaknesses to maximize results.
+                    </p>
+                    <a href="about.html" class="bg-ielts-red text-white px-8 py-3 rounded-lg hover:bg-red-700 transition font-semibold inline-block">
+                        Learn More About Me
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Overview with Large Cards -->
+    <section class="py-20 bg-gradient-to-b from-ielts-gray to-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold text-ielts-dark mb-4">Transform Your IELTS Journey</h2>
+                <div class="w-20 h-1 bg-ielts-red mx-auto mb-4"></div>
+                <p class="text-gray-600 text-lg max-w-2xl mx-auto">Choose the perfect course designed to help you achieve your target band score</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto">
+                <div class="bg-white p-10 rounded-2xl shadow-lg card-hover">
+                    <div class="text-6xl mb-6 text-center">📚</div>
+                    <h3 class="text-2xl font-bold text-ielts-dark mb-4 text-center">Complete IELTS Preparation</h3>
+                    <p class="text-gray-700 mb-6 text-center">Master all four modules with comprehensive training and practice.</p>
+                    <a href="courses.html" class="block text-center bg-ielts-red text-white px-6 py-3 rounded-lg hover:bg-red-700 transition font-semibold">
+                        Learn More
+                    </a>
+                </div>
+                <div class="bg-white p-10 rounded-2xl shadow-lg card-hover border-4 border-ielts-red transform md:scale-105">
+                    <div class="bg-ielts-red text-white text-sm font-bold px-4 py-1 rounded-full inline-block mb-4">MOST POPULAR</div>
+                    <div class="text-6xl mb-6 text-center">👤</div>
+                    <h3 class="text-2xl font-bold text-ielts-dark mb-4 text-center">One-on-One Classes</h3>
+                    <p class="text-gray-700 mb-6 text-center">Personalized attention with customized study plans for maximum results.</p>
+                    <a href="courses.html" class="block text-center bg-ielts-red text-white px-6 py-3 rounded-lg hover:bg-red-700 transition font-semibold">
+                        Learn More
+                    </a>
+                </div>
+                <div class="bg-white p-10 rounded-2xl shadow-lg card-hover">
+                    <div class="text-6xl mb-6 text-center">💻</div>
+                    <h3 class="text-2xl font-bold text-ielts-dark mb-4 text-center">Online & In-Person</h3>
+                    <p class="text-gray-700 mb-6 text-center">Flexible learning with both online and face-to-face options.</p>
+                    <a href="courses.html" class="block text-center bg-ielts-red text-white px-6 py-3 rounded-lg hover:bg-red-700 transition font-semibold">
+                        Learn More
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold text-ielts-dark mb-4">Success Stories</h2>
+                <div class="w-20 h-1 bg-ielts-red mx-auto"></div>
+            </div>
+            <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                <div class="bg-gradient-to-br from-ielts-gray to-white p-10 rounded-2xl shadow-lg">
+                    <div class="flex items-center mb-6">
+                        <div class="w-16 h-16 bg-ielts-red rounded-full mr-4 flex items-center justify-center text-white text-2xl font-bold">S</div>
+                        <div>
+                            <h4 class="font-bold text-ielts-dark text-lg">Student Name</h4>
+                            <p class="text-ielts-red font-semibold">Band 5.5 → 7.5</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic text-lg leading-relaxed">"The personalized approach and focused practice helped me improve my score significantly. Highly recommended for anyone serious about IELTS!"</p>
+                </div>
+                <div class="bg-gradient-to-br from-ielts-gray to-white p-10 rounded-2xl shadow-lg">
+                    <div class="flex items-center mb-6">
+                        <div class="w-16 h-16 bg-ielts-red rounded-full mr-4 flex items-center justify-center text-white text-2xl font-bold">S</div>
+                        <div>
+                            <h4 class="font-bold text-ielts-dark text-lg">Student Name</h4>
+                            <p class="text-ielts-red font-semibold">Band 6.0 → 8.0</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic text-lg leading-relaxed">"Excellent teaching methods and great study materials. I achieved my target score in just 2 months!"</p>
+                </div>
+            </div>
+            <div class="text-center mt-10">
+                <a href="success.html" class="text-ielts-red font-bold text-lg hover:underline">View All Success Stories →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 gradient-hero text-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6">Ready to Achieve Your IELTS Goals?</h2>
+            <p class="text-xl mb-10 max-w-2xl mx-auto opacity-90">Book a free consultation to discuss your goals and find the perfect course for you.</p>
+            <a href="contact.html" class="bg-white text-ielts-red px-10 py-4 rounded-full hover:bg-gray-100 transition font-bold text-lg inline-block shadow-lg">
+                Start Your Journey Today
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-ielts-dark text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <img src="Logo.png" alt="IELTS Excellence" class="h-12 mb-4">
+                    <p class="text-gray-400">Expert IELTS preparation in Sri Lanka</p>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="about.html" class="text-gray-400 hover:text-white transition">About</a></li>
+                        <li><a href="courses.html" class="text-gray-400 hover:text-white transition">Courses</a></li>
+                        <li><a href="resources.html" class="text-gray-400 hover:text-white transition">Resources</a></li>
+                        <li><a href="success.html" class="text-gray-400 hover:text-white transition">Success Stories</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Contact</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li>📞 [Phone Number]</li>
+                        <li>📧 [Email]</li>
+                        <li>📍 [Location], Sri Lanka</li>
+                        <li>💬 WhatsApp: [Number]</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Follow Us</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition">Facebook</a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">Instagram</a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">YouTube</a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 IELTS Excellence. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

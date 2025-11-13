@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact us for IELTS preparation courses in Sri Lanka. Book a free consultation and start your IELTS journey today.">
+    <title>Contact | IELTS Preparation Sri Lanka</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'ielts-red': '#E31837',
+                        'ielts-dark': '#1a1a1a',
+                        'ielts-gray': '#f5f5f5',
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="font-sans">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md fixed w-full top-0 z-50">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div>
+                    <img src="Logo.png" alt="IELTS Excellence" class="h-12 md:h-16">
+                </div>
+                <button id="mobile-menu-btn" class="md:hidden">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+                <ul id="nav-menu" class="hidden md:flex space-x-8">
+                    <li><a href="index.html" class="text-ielts-dark hover:text-ielts-red transition">Home</a></li>
+                    <li><a href="about.html" class="text-ielts-dark hover:text-ielts-red transition">About</a></li>
+                    <li><a href="courses.html" class="text-ielts-dark hover:text-ielts-red transition">Courses</a></li>
+                    <li><a href="resources.html" class="text-ielts-dark hover:text-ielts-red transition">Resources</a></li>
+                    <li><a href="success.html" class="text-ielts-dark hover:text-ielts-red transition">Success Stories</a></li>
+                    <li><a href="contact.html" class="text-ielts-red font-semibold">Contact</a></li>
+                </ul>
+            </div>
+            <!-- Mobile Menu -->
+            <ul id="mobile-menu" class="hidden md:hidden mt-4 space-y-2">
+                <li><a href="index.html" class="block py-2 text-ielts-dark hover:text-ielts-red transition">Home</a></li>
+                <li><a href="about.html" class="block py-2 text-ielts-dark hover:text-ielts-red transition">About</a></li>
+                <li><a href="courses.html" class="block py-2 text-ielts-dark hover:text-ielts-red transition">Courses</a></li>
+                <li><a href="resources.html" class="block py-2 text-ielts-dark hover:text-ielts-red transition">Resources</a></li>
+                <li><a href="success.html" class="block py-2 text-ielts-dark hover:text-ielts-red transition">Success Stories</a></li>
+                <li><a href="contact.html" class="block py-2 text-ielts-red font-semibold">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="pt-32 pb-16 bg-ielts-gray">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold text-ielts-dark mb-4">Get in Touch</h1>
+            <p class="text-lg text-gray-700 max-w-3xl mx-auto">Have questions? Ready to start your IELTS journey? Contact us today for a free consultation.</p>
+            <div class="w-20 h-1 bg-ielts-red mx-auto mt-6"></div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-12">
+                <!-- Contact Form -->
+                <div>
+                    <h2 class="text-2xl font-bold text-ielts-dark mb-6">Send Us a Message</h2>
+                    <form id="contact-form" class="space-y-4">
+                        <div>
+                            <label for="name" class="block text-gray-700 font-semibold mb-2">Full Name *</label>
+                            <input type="text" id="name" name="name" required
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-ielts-red">
+                        </div>
+
+                        <div>
+                            <label for="email" class="block text-gray-700 font-semibold mb-2">Email Address *</label>
+                            <input type="email" id="email" name="email" required
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-ielts-red">
+                        </div>
+
+                        <div>
+                            <label for="phone" class="block text-gray-700 font-semibold mb-2">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-ielts-red">
+                        </div>
+
+                        <div>
+                            <label for="course" class="block text-gray-700 font-semibold mb-2">Interested In</label>
+                            <select id="course" name="course"
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-ielts-red">
+                                <option value="">Select a course</option>
+                                <option value="complete">Complete IELTS Preparation</option>
+                                <option value="academic">IELTS Academic</option>
+                                <option value="general">IELTS General Training</option>
+                                <option value="listening">Listening Module</option>
+                                <option value="reading">Reading Module</option>
+                                <option value="writing">Writing Module</option>
+                                <option value="speaking">Speaking Module</option>
+                                <option value="consultation">Free Consultation</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label for="target-score" class="block text-gray-700 font-semibold mb-2">Target Band Score</label>
+                            <select id="target-score" name="target-score"
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-ielts-red">
+                                <option value="">Select target score</option>
+                                <option value="6.0">Band 6.0</option>
+                                <option value="6.5">Band 6.5</option>
+                                <option value="7.0">Band 7.0</option>
+                                <option value="7.5">Band 7.5</option>
+                                <option value="8.0">Band 8.0</option>
+                                <option value="8.5+">Band 8.5+</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label for="message" class="block text-gray-700 font-semibold mb-2">Message</label>
+                            <textarea id="message" name="message" rows="5"
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-ielts-red"></textarea>
+                        </div>
+
+                        <button type="submit"
+                            class="w-full bg-ielts-red text-white px-8 py-3 rounded-lg hover:bg-red-700 transition font-semibold">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Contact Information -->
+                <div>
+                    <h2 class="text-2xl font-bold text-ielts-dark mb-6">Contact Information</h2>
+
+                    <div class="space-y-6 mb-8">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 w-12 h-12 bg-ielts-red text-white rounded-full flex items-center justify-center mr-4">
+                                📞
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-ielts-dark mb-1">Phone</h3>
+                                <p class="text-gray-700">[+94 XX XXX XXXX]</p>
+                                <p class="text-sm text-gray-600">Monday - Saturday, 9:00 AM - 7:00 PM</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 w-12 h-12 bg-ielts-red text-white rounded-full flex items-center justify-center mr-4">
+                                📧
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-ielts-dark mb-1">Email</h3>
+                                <p class="text-gray-700">[info@ieltsexcellence.lk]</p>
+                                <p class="text-sm text-gray-600">We'll respond within 24 hours</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 w-12 h-12 bg-ielts-red text-white rounded-full flex items-center justify-center mr-4">
+                                📍
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-ielts-dark mb-1">Location</h3>
+                                <p class="text-gray-700">[Address Line 1]</p>
+                                <p class="text-gray-700">[Address Line 2]</p>
+                                <p class="text-gray-700">[City], Sri Lanka</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 w-12 h-12 bg-ielts-red text-white rounded-full flex items-center justify-center mr-4">
+                                💬
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-ielts-dark mb-1">WhatsApp</h3>
+                                <p class="text-gray-700">[+94 XX XXX XXXX]</p>
+                                <p class="text-sm text-gray-600">Quick responses via WhatsApp</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Social Media -->
+                    <div class="bg-ielts-gray p-6 rounded-lg">
+                        <h3 class="font-bold text-ielts-dark mb-4">Follow Us</h3>
+                        <div class="flex space-x-4">
+                            <a href="#" class="w-12 h-12 bg-ielts-red text-white rounded-full flex items-center justify-center hover:bg-red-700 transition">
+                                <span class="text-xl">f</span>
+                            </a>
+                            <a href="#" class="w-12 h-12 bg-ielts-red text-white rounded-full flex items-center justify-center hover:bg-red-700 transition">
+                                <span class="text-xl">📷</span>
+                            </a>
+                            <a href="#" class="w-12 h-12 bg-ielts-red text-white rounded-full flex items-center justify-center hover:bg-red-700 transition">
+                                <span class="text-xl">▶</span>
+                            </a>
+                            <a href="#" class="w-12 h-12 bg-ielts-red text-white rounded-full flex items-center justify-center hover:bg-red-700 transition">
+                                <span class="text-xl">in</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Office Hours -->
+                    <div class="bg-ielts-red text-white p-6 rounded-lg mt-6">
+                        <h3 class="font-bold mb-4">Office Hours</h3>
+                        <div class="space-y-2 text-sm">
+                            <div class="flex justify-between">
+                                <span>Monday - Friday:</span>
+                                <span>9:00 AM - 7:00 PM</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span>Saturday:</span>
+                                <span>9:00 AM - 5:00 PM</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span>Sunday:</span>
+                                <span>Closed</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section (Placeholder) -->
+    <section class="py-16 bg-ielts-gray">
+        <div class="container mx-auto px-6">
+            <h2 class="text-2xl font-bold text-ielts-dark mb-6 text-center">Find Us</h2>
+            <div class="bg-gray-300 h-96 rounded-lg flex items-center justify-center">
+                <p class="text-gray-600">[Google Maps Embed - Add your location coordinates]</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-ielts-dark mb-12 text-center">Frequently Asked Questions</h2>
+
+            <div class="max-w-3xl mx-auto space-y-4">
+                <div class="border border-gray-300 rounded-lg p-6">
+                    <h3 class="font-bold text-ielts-dark mb-2">How long does it take to prepare for IELTS?</h3>
+                    <p class="text-gray-700 text-sm">The preparation time varies depending on your current English level and target score. Typically, our students complete preparation in 8-12 weeks with consistent practice.</p>
+                </div>
+
+                <div class="border border-gray-300 rounded-lg p-6">
+                    <h3 class="font-bold text-ielts-dark mb-2">Do you offer online classes?</h3>
+                    <p class="text-gray-700 text-sm">Yes! We offer both online and in-person classes. Online classes are conducted via Zoom with live interaction, just like in-person sessions.</p>
+                </div>
+
+                <div class="border border-gray-300 rounded-lg p-6">
+                    <h3 class="font-bold text-ielts-dark mb-2">What is the class size for group sessions?</h3>
+                    <p class="text-gray-700 text-sm">We keep our group classes small with a maximum of 6 students to ensure everyone gets adequate attention and practice time.</p>
+                </div>
+
+                <div class="border border-gray-300 rounded-lg p-6">
+                    <h3 class="font-bold text-ielts-dark mb-2">Can I get a free trial class?</h3>
+                    <p class="text-gray-700 text-sm">Yes, we offer a free consultation session where you can discuss your goals, take an assessment, and experience our teaching style before enrolling.</p>
+                </div>
+
+                <div class="border border-gray-300 rounded-lg p-6">
+                    <h3 class="font-bold text-ielts-dark mb-2">What study materials are provided?</h3>
+                    <p class="text-gray-700 text-sm">All enrolled students receive comprehensive study materials including practice tests, sample answers, vocabulary lists, and access to online resources.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 bg-ielts-red text-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">Ready to Get Started?</h2>
+            <p class="text-lg mb-8">Don't wait! Book your free consultation today and take the first step toward your IELTS success.</p>
+            <a href="#contact-form" class="bg-white text-ielts-red px-8 py-3 rounded-lg hover:bg-gray-100 transition font-semibold inline-block">
+                Book Free Consultation
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-ielts-dark text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <img src="Logo.png" alt="IELTS Excellence" class="h-12 mb-4">
+                    <p class="text-gray-400">Expert IELTS preparation in Sri Lanka</p>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="about.html" class="text-gray-400 hover:text-white transition">About</a></li>
+                        <li><a href="courses.html" class="text-gray-400 hover:text-white transition">Courses</a></li>
+                        <li><a href="resources.html" class="text-gray-400 hover:text-white transition">Resources</a></li>
+                        <li><a href="success.html" class="text-gray-400 hover:text-white transition">Success Stories</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Contact</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li>📞 [Phone Number]</li>
+                        <li>📧 [Email]</li>
+                        <li>📍 [Location], Sri Lanka</li>
+                        <li>💬 WhatsApp: [Number]</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Follow Us</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition">Facebook</a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">Instagram</a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">YouTube</a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 IELTS Excellence. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Form submission handler
+        document.getElementById('contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your message! We will contact you within 24 hours.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
